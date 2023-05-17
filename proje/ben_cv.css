@@ -1,8 +1,33 @@
 body {
-    background-color: black;
-  }
-  
-p {
-    color: navy;
-    margin-left: 20px;
- }
+	margin-left: 8%;
+	margin-right: 8%;
+}
+
+#divIMG {
+  display: flex; 
+	align-items: center; 
+	justify-content: center;
+}
+
+#vesikaIMG {
+  width:192px;
+  height:288px;
+}
+
+#solSutun {
+  background-color: gray;
+}
+
+#solSutunT {
+  text-align: center;
+  margin-top: 3%;
+}
+
+#sagSutunT {
+  margin-top: 3%;
+  margin-left: 5%;
+}
+
+#sagAltT {
+  margin-left: 5%;
+}
