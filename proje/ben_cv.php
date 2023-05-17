@@ -25,7 +25,6 @@
                 <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">Şehrim</a>
                 <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
                     <li><a class="dropdown-item" href="./sehrimiz.php">Şehrimiz</a></li>
-                    <li><a class="dropdown-item" href="./takimimiz.php">Takımımız</a></li>
                     <li><a class="dropdown-item" href="./mirasimiz.php">Mirasımız</a></li>
                 </ul>
                 </li>
@@ -36,45 +35,24 @@
             </ul>
         </div>
     </nav>
-<?php
-
-?>
- <p>a</p><br>
- <p>a</p><br>
- <p>a</p><br>
- <p>a</p><br>
- <p>a</p><br>
- <p>a</p><br>
- <p>a</p><br>
- <p>a</p><br>
- <p>a</p><br>
- <p>a</p><br>
- <p>a</p><br>
- <p>a</p><br>
- <p>a</p><br>
- <p>a</p><br>
- <p>a</p><br>
- <p>a</p><br>
- <p>a</p><br>
- <p>a</p><br>
- <p>a</p><br>
- <p>a</p><br>
- <p>a</p><br>
- <p>a</p><br>
- <p>a</p><br>
- <p>a</p><br>
- <p>a</p><br>
- <p>a</p><br>
- <p>a</p><br>
- <p>a</p><br>
- <p>a</p><br>
- <p>a</p><br>
- <p>a</p><br>
- <p>a</p><br>
- <p>a</p><br>
- <p>a</p><br>
- <p>a</p><br>
- <p>a</p><br>
-
+    <div class="container" style="margin-top:30px">
+        <div class="row">
+            <div class="col-4">
+                <div>
+                    <img src="ben.jpg" alt="kendi fotom" style="width:192px;height:192px;">
+                </div>
+                <article>
+                    <h1>baslık1<h1>
+                    <p>metin1</p>
+                </article>
+            </div>            
+            <div class="col-8">
+                <article>
+                    <h1>baslik2<h1>
+                    <p>metin2</p>
+                </article>
+            </div>
+        </div>
+    </div>
 </body>
 </html>
