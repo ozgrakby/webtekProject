@@ -1,8 +1,46 @@
 body {
-    background-color: black;
-  }
-  
+	margin-left: 8%;
+	margin-right: 8%;
+}
+
 p {
-    color: navy;
-    margin-left: 20px;
- }
+  font-size:x-large;
+}
+
+#pageIntro {
+  border-style: groove;
+  margin-top: 3%;
+}
+
+#divIMG {
+  text-align: center;
+  margin-top: 6%; 
+}
+
+#pageInfo {
+  margin-top: 3%; 
+}
+
+#kediIMG {
+  width:192px;
+	height:192px;
+}
+
+#pageText {
+  margin-right: 10%; 
+}
+
+#btnKedi {
+  width:200px;
+	height:50px;
+  border: 3px solid gray;
+  border-radius: 8px;
+  margin-bottom: 4%;
+}
+
+#apiIMG {
+  margin-top: 3%; 
+  display: flex; 
+	text-align: center; 
+	justify-content: center;
+}
