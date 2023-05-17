@@ -1,8 +1,19 @@
 body {
-    background-color: black;
-  }
-  
+	margin-left: 8%;
+	margin-right: 8%;
+}
+
 p {
-    color: navy;
-    margin-left: 20px;
- }
+	font-size:x-large;
+}
+
+#benIMG {
+	width:192px;
+	height:192px;
+}
+
+#divIMG {
+	display: flex; 
+	align-items: center; 
+	justify-content: center;
+}
