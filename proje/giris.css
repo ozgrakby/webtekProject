@@ -1,8 +1,18 @@
 body {
     background-color: black;
-  }
-  
-p {
-    color: navy;
-    margin-left: 20px;
- }
+}
+
+main {
+  background-color: white;
+  margin-top: 10%;
+  margin-left: 30%;
+  margin-right: 30%;
+  border-radius: 7px;
+  width: 40%;
+  height: 50%;
+}
+
+#divForm {
+  margin-top: 10%;
+  text-align: center;
+}
