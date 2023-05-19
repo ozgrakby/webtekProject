@@ -33,13 +33,10 @@
             if(uname != "") {
                 if(uname.length == 10 && noKontrol(uname)){
                     if(uname == passw) {
-                        alert("Giriş Başarılı!");
-                        submit();
-                    }
-                    else { event.preventDefault(); alert("Giriş Başarısız!"); }
-                }
-            }
-            else { event.preventDefault(); alert("Giriş Başarısız!"); }
+                        alert("Hoşgeldiniz " + uname + "!");
+                    } else { event.preventDefault(); alert("Giriş Başarısız!"); }
+                } else { event.preventDefault(); alert("Giriş Başarısız!"); }
+            } else { event.preventDefault(); alert("Giriş Başarısız!"); }
         } else { event.preventDefault(); alert("Giriş Başarısız!"); }
     })
 
