@@ -1,8 +1,47 @@
+* {
+  font-family: Arial, Helvetica, sans-serif;
+}
+ 
 body {
-    background-color: black;
-  }
-  
-p {
-    color: navy;
-    margin-left: 20px;
- }
+	margin-left: 8%;
+	margin-right: 8%;
+}
+
+#formDiv {
+  margin-top: 5%;
+  margin-left: 20%;
+	margin-right: 20%;
+  text-align: center;
+  border-radius: 10px;
+  border-color: black;
+  border-width: 3px;
+  border-style:solid;
+}
+
+#hataDiv {
+  margin-top: 5%;
+  margin-left: 20%;
+	margin-right: 20%;
+  border-radius: 10px;
+  border-width: 3px;
+  border-color: red;
+  background-color: #FAA0A0;
+  color: red;
+  border-style:solid;
+  text-align: center;
+  display: none;
+}
+
+#form {
+  margin-top: 10%;
+  margin-bottom: 10%;
+}
+
+label {
+  font-size: x-large;
+}
+
+.button {
+  margin-top: 5%;
+  width: 20%;
+}
